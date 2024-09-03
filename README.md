@@ -19,7 +19,7 @@ The data directory contains three directories: train, test and evaluation. The d
 and test have similar structure, although the test data will be made available after the deadline.
 The train directory contains data organized in three subdirectories corresponding to the three tasks
 that you need to solve. The subdirectories are:\
-    • Task1 - this directory contains 25 training images showing the remaining standing
+   - Task1 - this directory contains 25 training images showing the remaining standing
 pins on the synthetic lane after the bowling has rolled down on it in a constrained
 scenario. In this scenario, each image shows the remaining standing pins from above
 the lane, with a static camera capturing the images. The data is collected from several
@@ -32,7 +32,7 @@ the query file (see Figure 2). The format that you need to follow is the one use
 the annotation files with the first line containing the total number of positions that
 need to be classified and starting with the second line the positions that need to be
 classified (0 -empty, 1-occupied).\
-    • Task2 - this directory contains 15 training videos in the scenario showing the bowling
+   - Task2 - this directory contains 15 training videos in the scenario showing the bowling
 ball rolling down the lane and hitting the pins. The task is to track the bowling ball
 released by the player. You should track the bowling ball from the initial frame to the
 final frame of the video (see Figure 3). The initial bounding box of the bowling ball
