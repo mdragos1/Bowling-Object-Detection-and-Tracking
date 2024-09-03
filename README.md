@@ -6,7 +6,7 @@ The goal of this project is to develop an automatic system for video analysis fo
 bowling. The system should be able to: (i) track the bowling ball that rolls down a synthetic
 lane with the goal of knocking down all the pins; (ii) detect the remaining standing pins.
 
-## Description of the bowling game1
+## Description of the bowling game
 
 Ten-pin bowling is a type of bowling in which a bowler rolls a bowling ball down a wood
 or synthetic lane toward ten pins positioned evenly in four rows in an equilateral triangle
