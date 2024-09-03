@@ -18,7 +18,7 @@ roll of the ball (a strike), or failing that, on the second roll (a spare).
 The data directory contains three directories: train, test and evaluation. The directories train
 and test have similar structure, although the test data will be made available after the deadline.
 The train directory contains data organized in three subdirectories corresponding to the three tasks
-that you need to solve. The subdirectories are:
+that you need to solve. The subdirectories are:\
     • Task1 - this directory contains 25 training images showing the remaining standing
 pins on the synthetic lane after the bowling has rolled down on it in a constrained
 scenario. In this scenario, each image shows the remaining standing pins from above
@@ -31,14 +31,14 @@ The Task 1 consists in correctly classifying the positions of some pins provided
 the query file (see Figure 2). The format that you need to follow is the one used in
 the annotation files with the first line containing the total number of positions that
 need to be classified and starting with the second line the positions that need to be
-classified (0 -empty, 1-occupied).
+classified (0 -empty, 1-occupied).\
     • Task2 - this directory contains 15 training videos in the scenario showing the bowling
 ball rolling down the lane and hitting the pins. The task is to track the bowling ball
 released by the player. You should track the bowling ball from the initial frame to the
 final frame of the video (see Figure 3). The initial bounding box of the bowling ball
 to be tracked is provided for the first frame (the annotation follows the format [xmin
 ymin xmax ymax], where (xmin,ymin) is the top left corner and (xmax,ymax) is the
-bottom right corner of the initial bounding-box).
+bottom right corner of the initial bounding-box).\
 In each video we will consider that your algorithm correctly tracks the bowling ball if in
 more (greater or equal) than 80% of the video frames your algorithm correctly localizes
 the bowling ball to be tracked. We consider that your algorithm correctly localizes the 
